@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo flex gap-4 justify items-center p-2 color">
+            <i class="fa-solid fa-building logo1"></i>
+            <h4 class="color">Disniv</h4>
+        </div>
+        <hr>
+        <ul class="flex justify direction ">
+                <li><i class="fa-solid fa-house"></i>Dashboard</li>
+                <li><i class="fa-solid fa-user-group"></i>Contact</li>
+                <li><i class="fa-solid fa-sitemap"></i>Items</li>
+                <hr>
+                <li><i class="fa-solid fa-cart-shopping"></i>Sales Order</li></a>
+                <li class="color"><i class="fa-solid fa-box"></i>Package</li>
+                <li><i class="fa-solid fa-file-invoice"></i>Invoice</li>
+                <li><i class="fa-solid fa-store"></i>Purchase Order</li>
+                <li><i class="fa-solid fa-file-invoice-dollar"></i>Bills</li>
+                <hr>
+                <li><i class="fa-solid fa-flag"></i>Reports</li>
+                <li><i class="fa-solid fa-gear"></i>Settings</li>
+            </div>
+        </ul>
+    </div>
+    <div class="container flex">
+        <div class="nav-header">
+            <div class="nav flex justify-between p2">
+                <div class="search flex">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="search">
+                </div>
+                <div class="profile flex gap-2">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-message"></i>
+                   <div class="flex gap-4">
+                    <img class="profile-img" src="./assets/logo.jfif" alt="">
+                    <p>John Doe</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="package flex gap-4">
+                <i class="fa-solid fa-box"></i>
+                <h5>Package > Pkg - 32556</h5>
+            </div>
+            <div class="cards flex items-center">
+                <div class="card">
+                    <div class="box flex direction gap-5 p-1">
+                        <div class="line-height">
+                            <h4>Package</h4>
+                            <div class="Kg flex gap-1 items-center">
+                                <p>Pkg - 32556</p>
+                                 <p class="kg color ">Shipped</p>
+                            </div>
+                        </div>
+                        <div class="bill-date flex justify-between">
+                            <div class="line-height-2">
+                            <h5>BILL TO</h5>
+                            <h4>Quigley and Sons</h4>
+                            <p class="quigley">1264 Broders Rd Long Beach, CA 90562 555-555-555 quigley@company.com</p>
+                            </div>
+                            <div class="package-date flex direction gap-1 p-right">
+                                <div class="">
+                                    <h5 class="line-height-3">PACKAGE DATE</h5>
+                                    <p>Wednesday, December 28, 2018</p>
+                                </div>
+                                <div class="line-height-2">
+                                    <h5>SALES ORDER</h5>
+                                    <p>SO-12344</p>
+                                </div>
+                                <div class="line-height-2">
+                                    <h5>TOTAL QUANTITY</h5>
+                                    <h4>150</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line-height-2">
+                            <h5>SHIP TO</h5>
+                            <h4>Quigley and Sons</h4>
+                            <p class="quigley">1264 Broders Rd Long Beach, CA 90562 555-555-555 quigley@gmail.com</p>
+                        </div>
+                        <div class="flex justify-between direction">
+                            <table>
+                                <tr class="table-header flex justify-between items-center">
+                                 <th>Item Name</th>
+                                 <th>Warehouse</th>
+                                 <th>Quantity</th>
+                                </tr>
+                             </table>
+                             <table >
+                                 <tr class="wears flex justify-between items-center">
+                                     <td class="flex items-center gap-2">
+                                        <div>
+                                             <img class="jacket" src="./assets/blue-jacket-1.jfif" alt="">
+                                        </div>
+                                         <div class="line-height-2">
+                                            <p>Blue Jeans Jacket</p>
+                                             <p>SKLIM 324223333</p>
+                                         </div>
+                                     </td>
+                                     <td>NY Housing Ltd</td>
+                                     <td>100 units</td>
+                                 </tr>
+                                 <tr class="wears flex justify-between items-center m-top">
+                                     <td class="flex items-center gap-1">
+                                        <div>
+                                            <img class="jacket" src="./assets/orange-jacket-3.jfif" alt="">
+                                        </div>
+                                        <div class="line-height-2">
+                                            <p>Orange Jeans Jacket</p>
+                                            <p>SKLIM 324223333</p>
+                                        </div>
+                                     </td>
+                                     <td>NY Housing Ltd</td>
+                                     <td>100 units</td>
+                                 </tr>
+                             </table>
+                             <div class="flex m-top direction gap-1">
+                                 <div class="flex justify-between">
+                                     <p>Notes</p>
+                                     <h5>Total Quantity</h5>
+                                     <h5>150 units</h5>
+                                 </div>
+                                 <div >
+                                     <p class="items">I would really appreciate if the items could be send as early as possible</p>
+                                 </div>
+                             </div>
+                         </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-2">
+            <div class="card-2 p-1 m-top">
+                <div class="top-card">
+                    <div class="box-2 flex direction gap-1">
+                        <h4>Payment</h4>
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-truck truck"></i>
+                                <div class="line-height-2">
+                                    <h5>SHP-0000007</h5>
+                                    <p>Shipped on 27/03/2019</p>
+                                </div>
+                            </div>
+                            <div class="carrier-charge flex gap-3">
+                                <div class="carrier line-height-2">
+                                    <h5>CARRIER</h5>
+                                    <P>DHL</P>
+                                    <h5>TRACKING#</h5>
+                                    <P>123213123</P>
+                                </div>
+                                <div class="carrier line-height-2">
+                                    <h5>SHIPPING CHARGE</h5>
+                                    <P>$200</P>
+                                    <h5>STATUS</h5>
+                                    <P>SHIPPED</P>
+                                </div>
+                            </div>
+                            <P class="delete">Delete Shipment</P>
+                    </div>
+                </div>
+            </div>
+            <div class="card-3 p-1">
+                <div class="bottom-card">
+                <div class="box-3 flex direction gap-5">
+                    <h4>Shipment Timeline</h4>
+                    <div class="flex justify gap-4">
+                       <i class="fa-solid fa-truck truck2"></i>
+                        <div class="line-height-2">
+                            <h5>5:23 PM, Monday, 03 June, 2019.</h5>
+                            <h5 class="width">Delivered - Delivered to recepient at FedEx facility</h5>
+                            <p>PUERTO VAILARTA</p>
+                        </div>
+                    </div>
+                    <div class="flex justify gap-4">
+                        <i class="fa-solid fa-box truck2 color-2"></i>
+                         <div class="line-height-2">
+                             <h5>5:23 PM, Monday, 03 June, 2019.</h5>
+                             <h5 class="width">Ready for recepient pickup - Package available for pickup at FedEx facility. CARR A TEPIC 5735 LOCAL 39, 40</h5>
+                             <p>PUERTO VAILARTA</p>
+                         </div>
+                     </div>
+                     <div class="flex justify gap-4">
+                        <i class="fa-solid fa-square-nfi truck2 gray"></i>
+                         <div class="line-height-2">
+                             <h5>5:23 PM, Monday, 03 June, 2019.</h5>
+                             <h5 class="width">Shipment sent to FedEx</h5>
+                             <p>PUERTO VAILARTA</p>
+                         </div>
+                     </div>
+                </div>
+                </div>
+                <div class="m-top-2">
+                    <a class="color" href="#">Show Less</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
